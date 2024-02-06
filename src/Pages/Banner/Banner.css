@@ -1,0 +1,30 @@
+.banner1_bg{
+    background-image: url("../../assets/img/bg_1.jpg.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.banner2_bg{
+    background-image: url("../../assets/img/bg_2.jpg.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.slick-dots{
+    bottom:80px;
+}
+.slick-dots li button::before{
+    font-size:0px;
+}
+.slick-dots li{
+    display:inline-block;
+    background-color:#2C4CA5;
+    width:10px;
+    height:10px;
+    transition:0.5s;
+}
+.slick-dots li.slick-active{
+    background-color:#FF8000;
+    width:30px;
+}
